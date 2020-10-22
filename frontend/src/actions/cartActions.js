@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { CART_ADD_ITEM } from '../actions/productActions'
+import { CART_ADD_ITEM } from '../constants/cartConstants'
 
 // here is using thunk, function inside function to make async request
 // getState is for getting all the piece of state of reducers in store.js
